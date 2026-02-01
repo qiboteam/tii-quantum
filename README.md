@@ -1,4 +1,4 @@
-# Qibo client
+# TII cloud client
 
 ## Install
 
