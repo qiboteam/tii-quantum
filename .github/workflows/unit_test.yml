@@ -18,6 +18,7 @@ jobs:
     with:
       os: ${{ matrix.os }}
       python-version: ${{ matrix.python-version }}
-      doctests: ${{ matrix.os == 'ubuntu-latest'}}
-      poetry-extras: "--with test,docs"
-    secrets: inherit
+      poetry-extras: "--with test"
+    secrets:
+      CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+

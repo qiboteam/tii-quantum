@@ -1,8 +1,5 @@
 # TII Quantum Cloud Client
 
-The documentation of the project can be found
-[here](https://qibo.science/tii-quantum/stable/).
-
 ## Install
 
 Install first the package dependencies with the following commands.
