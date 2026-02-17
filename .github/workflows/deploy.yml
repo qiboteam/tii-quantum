@@ -21,4 +21,4 @@ jobs:
       python-version: ${{ matrix.python-version }}
       publish: ${{ github.event_name == 'release' && github.event.action == 'published' && matrix.os == 'ubuntu-latest' && matrix.python-version == '3.11' }}
     secrets:
-      PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
+      PYPI-TOKEN: ${{ secrets.PYPI_TOKEN }}
