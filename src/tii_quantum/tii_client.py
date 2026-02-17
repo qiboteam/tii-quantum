@@ -16,5 +16,5 @@ class Client(qibo_client.Client):
         """
         super().__init__(
             token=token,
-            url="https://tii.qibo.science",
+            url="https://q-cloud.tii.ae",
         )
