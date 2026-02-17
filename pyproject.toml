@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "tii-quantum"
-version = "0.1.1"
+version = "0.1.2"
 description = "TII Quantum Computing Cloud Client"
 authors = ["TII"]
 license = "Apache License 2.0"
